@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update Account</title>
+
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous">
+
+</head>
+<body>
+
+<div class="container">
+    <h2>Form Update Account</h2>
+    <a th:href="@{/api/v1/accounts}" class="btn btn-primary">Back Account</a>
+
+    <br>
+    <br>
+
+
+
+    <form th:action="${'/api/v1/accounts/update'}" method="post">
+
+        <p hidden>Id</p>
+        <input hidden type="text" name="id" th:value="${account.id}" class="form-control mb-4 col-4">
+
+        <p>First Name</p>
+<!--        <input type="text" name="firstName" th:value="${account.firstName}" class="form-control mb-4 col-4">-->
+        <input class="form-control mb-4 col-4" type="text" th:value="${account.firstName}" disabled readonly>
+
+        <p>Last Name</p>
+<!--        <input type="text" name="lastName" th:value="${account.lastName}" class="form-control mb-4 col-4">-->
+        <input class="form-control mb-4 col-4" type="text" th:value="${account.lastName}" disabled readonly>
+
+        <p>Role</p>
+        <input type="text" name="role" th:value="${account.role}" class="form-control mb-4 col-4">
+
+        <p>Department Id</p>
+        <input type="text" name="departmentId" th:value="${account.department.id}" class="form-control mb-4 col-4">
+
+        <br>
+        <br>
+
+        <button type="submit" class="btn btn-info col-2">Update</button>
+        <!--    <input type="submit" class="btn btn-info col-2 value="Update">-->
+
+    </form>
+</div>
+</body>
+</html>

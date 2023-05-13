@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Account</title>
+</head>
+<body>
+<h3>Form update tai khoan</h3>
+
+<form th:action="${'/account/update1'}" method="post">
+    <p style="display:none">Id</p>
+    <input style="display:none" type="text" name="id" th:value="${account.id}"/>
+    <p>Ten Tai Khoan</p>
+    <input type="text" name="userName" th:value="${account.userName}"/>
+    <p>Ho va Ten</p>
+    <input type="text" name="fullName" th:value="${account.fullName}"/>
+    <p>Dia chi Email</p>
+    <input type="text" name="email" th:value="${account.email}"/>
+    <p>Mat Khau</p>
+    <input type="text" name="password" th:value="${account.password}"/>
+    <p>Role</p>
+    <input type="text" name="role" th:value="${account.role}"/>
+    <p>Ten phong ban</p>
+    <input type="text" name="department" th:value="${account.department.departmentName}"/>
+    <br />
+
+    <input type="submit" value="Update" />
+</form>
+</body>
+</html>

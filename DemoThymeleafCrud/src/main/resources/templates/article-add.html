@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Article</title>
+    <style>
+        td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+  <h3>Form tạo mới bài viết</h3>
+
+    <form th:action="${'/article/save'}" method="post">
+        <p>Tên bài viết</p>
+        <input type="text" name="articleName" />
+
+        <p>Mô tả</p>
+        <input type="text" name="description" />
+
+        <input type="submit" value="Thêm" />
+        <br />
+    </form>
+</body>
+</html>

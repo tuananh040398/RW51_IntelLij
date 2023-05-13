@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update Department</title>
+
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous">
+
+</head>
+<body>
+
+<div class="container">
+    <h2>Form Update Department</h2>
+    <a th:href="@{/api/v1/departments}" class="btn btn-primary">Back Department</a>
+
+    <br>
+    <br>
+
+    <form th:action="${'/api/v1/departments/update'}" method="post">
+
+        <p>Id</p>
+        <input type="text" name="id" th:value="${department.id}" class="form-control mb-4 col-4">
+
+        <p>Department Name</p>
+        <input type="text" name="name" th:value="${department.name} " class="form-control mb-4 col-4">
+
+        <p>Total Member</p>
+        <input type="text" name="totalMember" th:value="${department.totalMember}" class="form-control mb-4 col-4">
+
+        <p>Type</p>
+        <input type="text" name="type" th:value="${department.type}" class="form-control mb-4 col-4">
+
+        <br>
+        <br>
+
+        <button type="submit" class="btn btn-info col-2">Update</button>
+        <!--    <input type="submit" class="btn btn-info col-2 value="Update">-->
+
+    </form>
+</div>
+</body>
+</html>
