@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4aecdc48-cfee-4748-946d-78bb2c241957" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Spring_Web_Tin_Tuc2/src/main/java/com/tn/config/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Web_Tin_Tuc2/src/main/java/com/tn/controller/DepartmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Web_Tin_Tuc2/src/main/java/com/tn/entity/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Web_Tin_Tuc2/src/main/java/com/tn/repository/DepartmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Web_Tin_Tuc2/src/main/java/com/tn/service/DepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Web_Tin_Tuc2/src/main/java/com/tn/service/DepartmentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Web_Tin_Tuc2/src/main/resources/static/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Web_Tin_Tuc2/src/main/resources/templates/HTML/account-add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Web_Tin_Tuc2/src/main/resources/templates/HTML/account-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Web_Tin_Tuc2/src/main/resources/templates/HTML/account-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Web_Tin_Tuc2/src/main/resources/templates/HTML/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Web_Tin_Tuc2/src/main/resources/templates/HTML/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Web_Tin_Tuc2/src/main/resources/templates/HTML/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Web_Tin_Tuc2/src/main/resources/templates/JS/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring_Web_Tin_Tuc2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring_Web_Tin_Tuc2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring_Web_Tin_Tuc2/src/main/java/com/tn/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring_Web_Tin_Tuc2/src/main/java/com/tn/controller/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring_Web_Tin_Tuc2/src/main/java/com/tn/controller/ArticleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring_Web_Tin_Tuc2/src/main/java/com/tn/controller/CategoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring_Web_Tin_Tuc2/src/main/java/com/tn/entity/Article.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring_Web_Tin_Tuc2/src/main/java/com/tn/entity/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring_Web_Tin_Tuc2/src/main/java/com/tn/repository/ArticleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring_Web_Tin_Tuc2/src/main/java/com/tn/repository/CategoryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring_Web_Tin_Tuc2/src/main/java/com/tn/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring_Web_Tin_Tuc2/src/main/java/com/tn/service/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring_Web_Tin_Tuc2/src/main/java/com/tn/service/AccountServicelmpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring_Web_Tin_Tuc2/src/main/java/com/tn/service/AccountServicelmpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring_Web_Tin_Tuc2/src/main/java/com/tn/service/ArticleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring_Web_Tin_Tuc2/src/main/java/com/tn/service/ArticleServicelmpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring_Web_Tin_Tuc2/src/main/java/com/tn/service/CategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring_Web_Tin_Tuc2/src/main/java/com/tn/service/CategoryServicelmpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring_Web_Tin_Tuc2/src/main/resources/templates/account-list.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Spring_Web_Tin_Tuc2" />
+  </component>
+  <component name="ProjectId" id="2IRQaZKL8dWSyE1K5FxUnCTcqAs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DemoThymeleafCrud" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4aecdc48-cfee-4748-946d-78bb2c241957" name="Changes" comment="" />
+      <created>1670141980044</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670141980044</updated>
+      <workItem from="1670141981426" duration="107000" />
+      <workItem from="1670142110032" duration="59000" />
+      <workItem from="1670142599441" duration="2613000" />
+      <workItem from="1670156216056" duration="1800000" />
+      <workItem from="1670158062135" duration="1651000" />
+      <workItem from="1670160454311" duration="2955000" />
+      <workItem from="1670319269916" duration="18000" />
+      <workItem from="1670329252900" duration="23000" />
+      <workItem from="1670424202784" duration="621000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
